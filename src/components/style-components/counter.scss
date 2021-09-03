@@ -1,0 +1,21 @@
+.counter{
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__block{
+    text-align: center;
+    &-btn{
+      width: 80px;
+      height: 80px;
+      background: #856404;
+      border: 1px solid #856404;
+      border-radius: 50%;
+      margin: 10px;
+      font-size: 38px;
+      cursor: pointer;
+    }
+  }
+}

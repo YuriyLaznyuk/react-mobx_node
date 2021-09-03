@@ -1,0 +1,17 @@
+.todo{
+  margin: 10px auto;
+  width: 300px;
+  border: 1px solid;
+  table-layout: auto;
+  text-align: center;
+  tr,td,th{
+    border: 1px solid;
+  }
+  th>td{
+    display: flex;
+    justify-content: center;
+  }
+  input,button{
+    cursor: pointer;
+  }
+}

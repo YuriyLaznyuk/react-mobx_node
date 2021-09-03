@@ -1,0 +1,16 @@
+h1,h2{
+    text-align: center;
+    color: #721c24;
+}
+
+body{
+    background: #0f6674;
+    margin: 0;
+}
+
+.wrap{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
